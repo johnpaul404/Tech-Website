@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- CSS Stye -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    
+      <!-- Section  -->
+  <section class="showcase2">
+    <header>
+      <h2 class="logo">Web Development</h2>
+      <div class="toggle"></div>
+    </header>
+    <!-- Courses -->
+        <div id="courses">
+    <div class="course">
+        <a href="https://www.w3schools.com/html/html_intro.asp" target="blank"><img src="assets/img/course-01.jpg"></a>
+        <center>
+            <h2><a href="https://www.w3schools.com/html/html_intro.asp">HTML5 For Beginners</h2></a> 
+        </center>
+    </div>
+    <div class="course2">
+      <a href="https://www.w3schools.com/css/default.asp" target="blank"><img src="assets/img/course-02.jpg"></a>
+        <center>
+          <h2><a href="https://www.w3schools.com/css/default.asp" target="blank">CSS3 For Beginners</h2></a>
+        </center>
+    </div>
+    <!-- -->
+    <div class="course3">
+      <a href="https://www.w3schools.com/js/default.asp " target="blank"><img src="assets/img/course-03.jpg"></a>
+        <center>
+         <h2><a href="https://www.w3schools.com/js/default.as" target="blank">JavaScript For Beginners</h2></a>
+    
+    </div>
+</div>
+
+  </section>
+  
+  <!-- Navbar -->
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+   
+  </div>
+</div>
+
+<!-- Footer  -->
+<footer id="footer">
+  <ul class="social">
+    <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+    <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+    <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+  </ul>
+</footer>
+
+
+  <!-- JavaScript -->
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase2');
+    const showcase2 = document.querySelector('.showcase2');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      showcase2.classList.toggle('active');
+    })
+    
+    </script>
+
+
+
+</body>
+</html>
